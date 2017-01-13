@@ -2,4 +2,4 @@ test:
   override:
     - exit 1
   post:
-    - curl https://circleci.com/api/v1.1/project/github/li3n3/failureproject/$CIRCLE_BUILD_NUM?circle-token=$allthingsfail
+    - curl https://circleci.com/api/v1.1/project/github/li3n3/failureproject/${CIRCLE_BUILD_NUM}?circle-token=${allthingsfail}
